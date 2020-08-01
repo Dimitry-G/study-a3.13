@@ -471,13 +471,13 @@ header {
 .team-name2 {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	margin: 0;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 30.127px;
 	line-height: 1.2em;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.275265px;
 	text-transform: uppercase;
 	color: #000000;
@@ -504,7 +504,7 @@ header {
 	width: 401px;
 	display: flex;
 	justify-content: space-between;
-	padding-inline-start: 0;
+	padding-left: 0;
 }
 
 .social > li {
@@ -523,9 +523,30 @@ header {
 	color: #000000;
 }
 
-.hotizontal-imgs {
+.members {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+}
+
+.worker {
+	position: relative;
+}
+
+.worker > h3 {
+	visibility: hidden;
+	color: #ffffff;
+	position: absolute;
+    bottom: -13px;
+    width: 93%;
+	height: 37px;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.worker:hover > h3 {
+	visibility: visible;
 }
 
 .team-pics {
