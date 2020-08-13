@@ -259,7 +259,7 @@ header {
 	flex: 1 1 301px;
 	max-width: 301px;
 	margin-top: -25px;
-	margin-right: 12px;
+/* 	margin-right: 12px; */
 }
 
 .services > p {
